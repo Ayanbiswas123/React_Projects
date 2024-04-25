@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    align-items: center;
+}
+.main span{
+    color: chocolate;
+    font-weight: 800;
+    font-size: 20px;
+}
+.main .span2{
+    color: rgb(120, 199, 18);
+}
+.pokemon-load{
+    border: 1px solid red;
+    width: 100vw;
+    height: 75vh;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
